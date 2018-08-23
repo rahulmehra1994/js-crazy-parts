@@ -1,7 +1,7 @@
 # Equlaity problem
-In Js `(0.1 + 0.2) == 0.3` is actually **false** because adding 0.1 and 0.2 gives value **0.30000000000000004** which is not equal to **0.3 **
+In Js `(0.1 + 0.2) == 0.3` is actually **false** because adding **0.1** and **0.2** gives value **0.30000000000000004** which is not equal to **0.3**
 
-#### Use of `==` is dangerous!
+### Use of `==` is dangerous!
 
 ```javascript
 new Array(2) == ","; //true
@@ -59,7 +59,7 @@ var temp = autoRunFunc() {
 ```
 
 Fourth way
-```javscript
+```javascript
 var temp = autoRunFunc() {
     alert("hi");
 }();
