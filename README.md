@@ -77,8 +77,8 @@ var temp = (autoRunFunc() {
 }());
 ```
 
-# NAN IS A NUMBER
-the idea of NaN — “not a number” — being a number! Moreover, NaN is not considered equal to itself!
+# NAN is a Number
+The idea of NaN — “not a number” — being a number! is crazy. Moreover, NaN is not considered equal to itself!
 
 ```javascript
 alert(typeof NaN); //alerts 'Number'
@@ -86,3 +86,14 @@ alert(NaN === NaN); //evaluates false
 ```
 In fact NaN is not equal to anything. The only way to confirm that something is NaN is via the function isNaN().
 
+# NULL is an object
+The idea of NaN — “not a number” — being a number! is crazy. Moreover, NaN is not considered equal to itself!
+
+```javascript
+alert(typeof null); //alerts 'object'
+```
+Despite this, null is not considered an instance of an object. (In case you didn’t know, values in JavaScript are instances of base objects. So, every number is an instance of the Number object, every object is an instance of the Object object, and so on.) This brings us back to sanity, because if null is the absence of value, then it obviously can’t be an instance of anything. Hence, the following evaluates to false:
+
+```javascript
+alert(null instanceof Object); //evaluates false
+```
