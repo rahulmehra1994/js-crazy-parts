@@ -77,3 +77,12 @@ var temp = (autoRunFunc() {
 }());
 ```
 
+# NAN IS A NUMBER
+the idea of NaN — “not a number” — being a number! Moreover, NaN is not considered equal to itself!
+
+```javascript
+alert(typeof NaN); //alerts 'Number'
+alert(NaN === NaN); //evaluates false
+```
+In fact NaN is not equal to anything. The only way to confirm that something is NaN is via the function isNaN().
+
