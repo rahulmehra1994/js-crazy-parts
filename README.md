@@ -87,7 +87,6 @@ alert(NaN === NaN); //evaluates false
 In fact NaN is not equal to anything. The only way to confirm that something is NaN is via the function isNaN().
 
 # NULL is an object
-The idea of NaN — “not a number” — being a number! is crazy. Moreover, NaN is not considered equal to itself!
 
 ```javascript
 alert(typeof null); //alerts 'object'
