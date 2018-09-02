@@ -105,7 +105,7 @@ alert(typeof -"10"); //number
 
 # Adding number literals concatenate but subtracting number literals actually subtract 
 ```javascript
-alert("12" + "10");; //1210
+alert("12" + "10"); //1210
 alert("12" - "10"); //2
 ```
 
