@@ -97,8 +97,15 @@ Despite this, null is not considered an instance of an object. (In case you didn
 alert(null instanceof Object); //evaluates false
 ```
 
-# Adding + or - before number in string format changes its type to number.
+# Adding + or - before number in string format changes its type to number
 ```javascript
 alert(typeof +"10"); //number
 alert(typeof -"10"); //number
 ```
+
+# Adding number literals concatenate but subtracting number literals actually subtract 
+```javascript
+alert("12" + "10");; //1210
+alert("12" - "10"); //2
+```
+
