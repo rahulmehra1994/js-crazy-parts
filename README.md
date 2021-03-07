@@ -1,3 +1,4 @@
+
 # Equlaity problem
 In Js `(0.1 + 0.2) == 0.3` is actually **false** because adding **0.1** and **0.2** gives value **0.30000000000000004** which is not equal to **0.3**
 
@@ -82,9 +83,16 @@ The idea of NaN — “not a number” — being a number! is crazy. Moreo
 
 ```javascript
 alert(typeof NaN); //alerts 'Number'
+```
+
+# NAN is not even equal to itself
+The idea of NaN — “not a number” — being a number! is crazy. Moreover, NaN is not considered equal to itself!
+
+```javascript
 alert(NaN === NaN); //evaluates false
 ```
 In fact NaN is not equal to anything. The only way to confirm that something is NaN is via the function isNaN().
+
 
 # NULL is an object
 
