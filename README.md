@@ -1,4 +1,5 @@
 
+
 # Equlaity problem
 In Js `(0.1 + 0.2) == 0.3` is actually **false** because adding **0.1** and **0.2** gives value **0.30000000000000004** which is not equal to **0.3**
 
@@ -117,3 +118,13 @@ alert("12" + "10"); //1210
 alert("12" - "10"); //2
 ```
 
+# Boolean datatypes can be added and subtracted
+```javascript
+alert(true + true); // 2
+alert(true + false); // 1 
+
+alert(true - true); // 0
+alert(true - false); // 1 
+
+```
+In Javascript true converts to 1 and false converts to 0.
